@@ -1,4 +1,4 @@
-# <img src=https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/master/resources/icons/icon_48x48.png" width="48" height="48"/> [Jitsi Meet Electron](https://github.com/jitsi/jitsi-meet-electron)
+# <img src="https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/master/resources/icons/icon_48x48.png" width="48" height="48"/> [Jitsi Meet Electron](https://github.com/jitsi/jitsi-meet-electron)
 
 ## Features
 
