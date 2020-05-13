@@ -9,7 +9,7 @@ $packageArgs = @{
   checksumType   = 'sha256'
   url            = 'https://github.com/jitsi/jitsi-meet-electron/releases/download/v2.0.2/jitsi-meet.exe'
 
-  silentArgs     = '/S /ALLUSERS'
+  silentArgs     = '/S /allusers'
   validExitCodes = @(0)
 }
 
