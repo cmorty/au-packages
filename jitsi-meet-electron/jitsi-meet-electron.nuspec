@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>jitsi-meet-electron</id>
-    <version>0.0</version>
+    <version>2.0.2</version>
     <title>Jitsi Team</title>
     <owners>Morty</owners>
     <authors>Jitsi Meet Electron community</authors>
