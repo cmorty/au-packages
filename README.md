@@ -1,9 +1,9 @@
 <!-- EDIT ME-->
 
-[![](https://ci.appveyor.com/api/projects/status/github/cmorty/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/cmorty/chocolatey-packages)
+[![](https://ci.appveyor.com/api/projects/status/github/cmorty/au-packages?svg=true)](https://ci.appveyor.com/project/cmorty/au-packages)
 [Update status](https://gist.github.com/cmorty/554cd2b607b7bf0a288341da3b311ca1)
 [![](http://transparent-favicon.info/favicon.ico)](#)
-[chocolatey/YOUR_CHOCOLATEY_USERNAME_HERE](https://chocolatey.org/profiles/cmorty)
+[chocolatey/cmorty](https://chocolatey.org/profiles/cmorty)
 
 <!-- EDIT ME-->
 <!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
