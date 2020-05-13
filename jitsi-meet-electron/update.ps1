@@ -1,7 +1,8 @@
 ﻿import-module au
 
 $domain   = 'https://github.com'
-$releases = "$domain/LibreCAD/LibreCAD/releases/latest"
+$ghproj = 'jitsi/jitsi-meet-electron'
+$releases = "$domain/$ghproj/releases/latest"
 
 function global:au_SearchReplace {
   @{
@@ -10,7 +11,7 @@ function global:au_SearchReplace {
       "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
       "(?i)(^\s*checksumType\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType32)'"
     }
-    ".\librecad.nuspec" = @{
+    ".\jitsi-meet-electron.nuspec" = @{
       "\<releaseNotes\>.+" = "<releaseNotes>$($Latest.ReleaseNotes)</releaseNotes>"
     }
   }
@@ -22,13 +23,13 @@ function global:au_GetLatest {
   $re    = '\.exe$'
   $url   = $download_page.links | ? href -match $re | select -First 1 -expand href
 
-  $version  = ($url -split '/' | select -Last 1 -Skip 1)
+  $version  = ($url -split '/' | Select-Object -Last 1 -Skip 1 )
 
-  $releaseNotesUrl = "$domain/LibreCAD/LibreCAD/releases/tag/" + $version
+  $releaseNotesUrl = $download_page.BaseResponse.ResponseUri.AbsoluteUri
 
   @{
     URL32 = $domain + $url
-    Version = $version
+    Version = $version.Replace('v','')
     ReleaseNotes = $releaseNotesUrl
   }
 }

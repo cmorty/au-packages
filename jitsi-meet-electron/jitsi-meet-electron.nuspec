@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>jitsi-meet-electron</id>
+    <version>0.0</version>
+    <title>Jitsi Team</title>
+    <owners>Morty</owners>
+    <authors>Jitsi Meet Electron community</authors>
+    <licenseUrl>https://github.com/jitsi/jitsi-meet-electron/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jitsi/jitsi-meet-electron</projectUrl>
+    <projectSourceUrl>https://github.com/jitsi/jitsi-meet-electron</projectSourceUrl>
+    <docsUrl>https://github.com/jitsi/jitsi-meet-electron</docsUrl>
+    <!-- <mailingListUrl></mailingListUrl> -->
+    <bugTrackerUrl>https://github.com/jitsi/jitsi-meet-electron/issues</bugTrackerUrl>
+    <iconUrl>https://github.com/jitsi/jitsi-meet-electron/raw/master/resources/icons/icon_128x128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Desktop application for Jitsi Meet built with Electron.</summary>
+    <description><![CDATA[## Features
+
+- Works with any Jitsi Meet deployment
+- Local settings
+- Builtin auto-updates
+- Remote control
+- Always-On-Top window
+
+## Package information
+
+The Installer currently installs Jitsi Meet for the current user only.
+Any support improving this is welcome.
+
+![screenshot](https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/master/screenshot.png)
+]]></description>
+
+    <releaseNotes>https://github.com/jitsi/jitsi-meet-electron/releases/tag/v2.0.2</releaseNotes>
+    <copyright />
+    <tags>jitsi webinar webcam meeting electron</tags>
+    <packageSourceUrl>https://github.com/cmorty/au-packages/</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
