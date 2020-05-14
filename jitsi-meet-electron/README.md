@@ -10,7 +10,11 @@
 
 ## Package information
 
-The Installer currently installs Jitsi Meet for the current user only.
-Any support improving this is welcome.
+This will not use the installer, which installs jitsi-meet only for the current used.
+Instead Chocolatey's means of installing a zip-package are used.
+Thus the package will be installed for all users and requires administrative rights to update.
+
+This is an automatic package that will update itself as soon as a new version is released.
+It is therefore suggested to use `choco-upgrade-all-at-startup` or `choco-upgrade-all-at`, to make sure you always have the latest version.
 
 ![screenshot](https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/master/screenshot.png)
