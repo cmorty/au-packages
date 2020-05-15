@@ -30,7 +30,7 @@ foreach ($file in $files) {
     Write-Verbose "Crating Start Menu enty for $($file.BaseName)"
     $newlink ="$($env:ProgramData)\Microsoft\Windows\Start Menu\Programs\$($file.BaseName).lnk"
     Install-ChocolateyShortcut -shortcutFilePath $newlink  -targetPath "$file"
-    Add-Content "$toolsdir\chocoUninstall.ps1" -Value "Remove-Item $($newlink)"
+    Add-Content "$toolsdir\chocoUninstall.ps1" -Value "Remove-Item `"$($newlink)`" -Force -ea ignore"
   } else {
     Write-Verbose "Ignoring $($file.Name)"
     New-Item "$file.ignore" -type file -force | Out-Null

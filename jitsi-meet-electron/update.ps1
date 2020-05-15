@@ -33,7 +33,7 @@ function global:au_BeforeUpdate {
   Remove-Item "$downtemp" -Recurse -Force -ea ignore
   mkdir "$downtemp"
   $downf = "$downtemp\jtisi.exe"
-  $ProgressPreference = 'SilentlyContinue'
+  #$ProgressPreference = 'SilentlyContinue'
   Invoke-WebRequest $Latest.URL32 -OutFile  $downf
   7z x $downf "-o$downtemp"
 
@@ -62,7 +62,7 @@ function global:au_BeforeUpdate {
 
 
 function global:au_GetLatest {
-  $ProgressPreference = 'SilentlyContinue'
+  #$ProgressPreference = 'SilentlyContinue'
   $download_page = Invoke-WebRequest -UseBasicParsing -Uri $releases
 
   $re    = '\.exe$'
