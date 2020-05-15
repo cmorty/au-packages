@@ -54,6 +54,10 @@ function global:au_BeforeUpdate {
   $global:Latest.Checksum64 = Get-FileHash "$toolsp\$f64" -Algorithm $Algorithm | % Hash
   $global:Latest.ChecksumType64 = $Algorithm
   $global:Latest.FileName64 = $f32
+
+  Invoke-WebRequest https://raw.githubusercontent.com/jitsi/jitsi-meet-electron/master/LICENSE -OutFile "$toolsp\LICENSE"
+  7z e "$toolsp\$f32" "-o$toolsp" "LICENSE*"
+
 }
 
 
