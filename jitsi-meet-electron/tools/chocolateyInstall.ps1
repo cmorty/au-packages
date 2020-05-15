@@ -28,7 +28,9 @@ foreach ($file in $files) {
   #generate an ignore file
   if($file.Name -like "Jitsi*") {
     Write-Verbose "Crating Start Menu enty for $($file.BaseName)"
-    Install-ChocolateyShortcut -shortcutFilePath "$($env:ProgramData)\Microsoft\Windows\Start Menu\Programs\$($file.BaseName).lnk" -targetPath "$file"
+    $newlink ="$($env:ProgramData)\Microsoft\Windows\Start Menu\Programs\$($file.BaseName).lnk"
+    Install-ChocolateyShortcut -shortcutFilePath $newlink  -targetPath "$file"
+    Add-Content "$toolsdir\chocoUninstall.ps1" -Value "Remove-Item $($newlink)"
   } else {
     Write-Verbose "Ignoring $($file.Name)"
     New-Item "$file.ignore" -type file -force | Out-Null
