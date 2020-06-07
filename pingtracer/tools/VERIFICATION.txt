@@ -1,0 +1,18 @@
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+The binary can been downloaded using the official download link found at https://github.com/bp2008/pingtracer/releases
+This package has been built using Appveyor.
+You can find the package source at https://github.com/cmorty/au-packages/tree/master/pingtracer
+As well as the build logs at: https://gist.github.com/cmorty/554cd2b607b7bf0a288341da3b311ca1
+
+To verify the package you need to
+1. Download the zip from the following
+    URL: https://github.com/bp2008/pingtracer/releases/download/1.8/PingTracer.1.8.zip
+2. You can use one of the following methods to obtain the checksum
+  - Use powershell function 'Get-Filehash'
+  - Use chocolatey utility 'checksum.exe'
+
+  checksum type: sha256
+  checksum32: 292777976917364EA471BFED8CCDEF105761521DD90BDF0092D043B3856BFE04
