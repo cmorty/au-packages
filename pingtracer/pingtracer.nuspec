@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>pingtracer</id>
-    <version>0.0</version>
+    <version>1.8</version>
     <title>Ping Tracer</title>
     <owners>Morty</owners>
     <authors>bp2008</authors>
