@@ -5,7 +5,7 @@
     <id>pingtracer</id>
     <version>1.8</version>
     <title>Ping Tracer</title>
-    <owners>Morty</owners>
+    <owners>cmorty</owners>
     <authors>bp2008</authors>
     <licenseUrl>https://github.com/bp2008/pingtracer/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/bp2008/pingtracer</projectUrl>
@@ -13,7 +13,7 @@
     <docsUrl>https://github.com/bp2008/pingtracer</docsUrl>
     <!-- <mailingListUrl></mailingListUrl> -->
     <bugTrackerUrl>https://github.com/bp2008/pingtracer/issues</bugTrackerUrl>
-    <iconUrl>https://raw.githubusercontent.com/bp2008/pingtracer/master/PingTest/PingTest/pingtracer.ico</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/bp2008/pingtracer/980daab1378df5c843f2c42a0fedf0b6ba1f21fc/PingTest/PingTest/pingtracer.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Ping Tracer continuously pings each network host between your computer and a given destination, helping identify the source of connectivity problems.</summary>
     <description><![CDATA[## Features

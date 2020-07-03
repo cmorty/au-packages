@@ -5,7 +5,7 @@
     <id>jitsi-meet-electron</id>
     <version>2.3.0</version>
     <title>Jitsi Meet Electron</title>
-    <owners>Morty</owners>
+    <owners>cmorty</owners>
     <authors>Jitsi Meet Electron community</authors>
     <licenseUrl>https://github.com/jitsi/jitsi-meet-electron/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/jitsi/jitsi-meet-electron</projectUrl>
@@ -13,7 +13,7 @@
     <docsUrl>https://github.com/jitsi/jitsi-meet-electron</docsUrl>
     <!-- <mailingListUrl></mailingListUrl> -->
     <bugTrackerUrl>https://github.com/jitsi/jitsi-meet-electron/issues</bugTrackerUrl>
-    <iconUrl>https://github.com/jitsi/jitsi-meet-electron/raw/master/resources/icons/icon_128x128.png</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/jitsi/jitsi-meet-electron/c1746ecdb5b83a423e56ddf5c7347a0020a6ec27/resources/icons/icon_128x128.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Desktop application for Jitsi Meet built with Electron.</summary>
     <description><![CDATA[## Features
