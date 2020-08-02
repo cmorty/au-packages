@@ -7,7 +7,7 @@ $releases = "$domain/$ghproj/releases/latest"
 function global:au_SearchReplace {
   @{
     ".\tools\chocolateyInstall.ps1" = @{
-      "(?i)(^\s*file\s*=\s*)('.*')" = "`$1'tools/$($Latest.Filename32)'"
+      "(?i)(^\s*file\s*=\s*)(`".*`")" = "`$1`"`$toolsDir/$($Latest.Filename32)`""
       "(?i)(^\s*checksum\s*=\s*)('.*')"   = "`$1'$($Latest.Checksum32)'"
       "(?i)(^\s*checksumType\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType32)'"
     }
