@@ -7,8 +7,8 @@ $toolsDir       = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   unzipLocation  = "$toolsDir"
   packageName    = "pingtracer"
-  file           = "$toolsDir/PingTracer.1.8_x32.zip"
-  checksum       = '292777976917364EA471BFED8CCDEF105761521DD90BDF0092D043B3856BFE04'
+  file           = "$toolsDir/PingTracer.1.9_x32.zip"
+  checksum       = 'E0129B715F44E3DC6485D30A7CB5C18C16AB3D901155027670A77CCBE1AFD219'
   checksumType   = 'sha256'
 }
 
