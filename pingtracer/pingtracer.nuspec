@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>pingtracer</id>
-    <version>1.10</version>
+    <version>1.10.1</version>
     <title>Ping Tracer</title>
     <owners>cmorty</owners>
     <authors>bp2008</authors>
@@ -34,7 +34,7 @@ Something you should be aware of is that when you attempt to "Graph every node l
 
 ![screenshot](http://i.imgur.com/g5jmH0W.png)
 ]]></description>
-    <releaseNotes>https://github.com/bp2008/pingtracer/releases/tag/1.10</releaseNotes>
+    <releaseNotes>https://github.com/bp2008/pingtracer/releases/tag/1.10.1</releaseNotes>
     <copyright />
     <tags>ping traceroute</tags>
     <packageSourceUrl>https://github.com/cmorty/au-packages/</packageSourceUrl>
